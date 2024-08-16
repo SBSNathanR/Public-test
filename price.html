@@ -15,11 +15,57 @@
             font-weight: bold;
         }
     </style>
-    <script src="https://ir.steeldynamics.com/stock-information/"></script>
+    <script <div class="B2iQuoteTicker">
+<div class="B2iStockTableFeed">
+    <div class="B2iStockTableItem">
+        <div class="b2iQuoteItem">
+            <div id="B2i-PriceText" class="B2iStockLabel b2iPriceLabel"><span class="b2iQuoteExchange">Nasdaq:</span> <span class="b2iQuoteSymbol">STLD</span></div>
+            <div id="B2i-Price" class="B2iStockData LastPrice">$116.70</div>
+        </div>
+        
+        <div class="b2iQuoteItem">
+            <div class="b2itradedate" id="B2i-TradeDate">08/16/2024 4:03 PM</div>
+        </div>
+     </div>   
+        
+     <div class="B2iStockTableItem">
+        <div class="b2iQuoteItem">
+            <div id="B2i-B2iChangeText" class="B2iStockLabel B2iChangeLabel">Change</div>
+            <div id="B2i-B2iChange" class="B2iStockData PriceDecrease"><span id="StockDownArrow" class="b2iarrow">▼</span> <span id="b2ichangeNetspan" class="b2ichangeNet">$-1.35</span></div>
+        </div>
+    
+        <div class="b2iQuoteItem">
+          <div id="B2i-PercB2iChangeText" class="B2iStockLabel PB2iChangeLabel">Change %</div>
+          <div id="B2i-PercB2iChange" class="B2iStockData PB2iChangeData PriceDecrease">-1.14%</div>
+        </div>
+    
+        <div class="b2iQuoteItem">
+            <div id="B2i-VolumeText" class="B2iStockLabel B2iVolumeLabel">Volume</div>
+            <div id="B2i-Volume" class="B2iStockData B2iVolumeData">1,064,688</div>
+        </div>
+    
+    </div>
+    <div class="B2iStockTableItem">
+        <div class="b2iQuoteItem">
+            <div id="B2i-IntradayB2iHighText" class="B2iStockLabel B2iHighLabel">Today's High</div>
+            <div id="B2i-IntradayB2iHigh" class="B2iStockData B2iHigh">$118.52</div>
+        </div>
+        <div class="b2iQuoteItem">
+            <div id="B2i-IntradayB2iLowText" class="B2iStockLabel B2iLowLabel">Today's Low</div>
+            <div id="B2i-IntradayB2iLow" class="B2iStockData B2iLow">$115.42</div>
+        </div>
+        <div class="b2iQuoteItem">
+            <div id="b2iDayOpenText" class="B2iStockLabel TodaysOpenLabel">Open</div>
+            <div id="b2iDayOpen" class="B2iStockData TodaysOpen">$115.52</div>
+        </div>
+    </div>
+    
+</div>
+</div>
     <script>
-        function fetchStockPrice() {
-            $.getJSON('https://www.marketwatch.com/investing/stock/stld', function(data) {
-                $('#stock-price').text('$' + data.price);
+       // function fetchStockPrice() {
+          //  $.getJSON('https://www.marketwatch.com/investing/stock/stld', function(data) {
+            //    $('#stock-price').text('$' + data.price);
             });
         }
         
